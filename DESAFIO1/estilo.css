@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+/*aplicar formato al titulo h1*/
+h1 {
+    font-family: lucida sans;
+    text-align: center;
+    background-color: black;
+    color: red;
+    padding: 2%;
+    width: 100%;
+}
+/*aplicar formato a la lista desordenada*/
+nav ul {
+    background-color:teal;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+/*cambiar la orientacion del menu*/
+nav li {
+    display: inline-flex;
+}
+
+/*aplicar formato a los enlaces del menu*/
+nav a {
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+    width: 150px;
+}
+/*aplicar la funcion hover para que cambie el color al pasar el mouse*/
+nav li:hover {
+    background-color:yellow;
+}
+/*aplicar parametros para la imagen*/
+.imagen2 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.container{
+    width: 75wn;
+    max-width: 1000px;
+    min-width: 120px;
+    margin:auto;
+}
+img{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+
+/*aplicar formato a la clase secciones*/
+.secciones{
+    display: flex;
+    align-items:center;
+    padding: 20px;
+    background-color: black;
+    color: red;
+}
+.secciones p {
+    color: aliceblue;
+    font-style: italic;
+    text-align: justify;
+    font-weight: lighter;
+    margin: 40px;
+    font-size: 150%;
+}
+
+.conte_parent{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+  }
+  .conte{
+      height: 510px;
+      width: 350px;
+      box-shadow:0 0 7px #111 ;
+      margin: 30px 30px;
+  }
+  .conte .card{
+      height: 200px;
+      width: 100%;
+      margin-bottom: 170px;
+  }
+  .card img{
+      margin: auto;
+      display: block;
+  }
+  .conte .card img{
+      height: 13px;
+      width: 10px;
+  }
+  .conte .card1{
+       background-color: #111;
+  }
+  .conte .card2{
+      background-color: #6A0C0B;
+  }
+  .conte .card3{
+      background-color:#B11313;
+  }
+  .conte .card2 img{
+      height: 13px;
+      width: 10px;
+  }
+  .conte .card3 img{
+      height: 13px;
+      width: 10px;
+  }
+  .informacion{
+      height: 80px;
+      width: 100%;
+  }
+  .informacion h1{
+      font-family: sans-serif;
+      font-size: 1.2em;
+      text-align: center;
+      color: red;
+      margin-bottom: -10px;
+  }
+  .informacion p{
+      text-align: justify;
+      font-family: sans-serif;
+      font-size: .9em;
+      color:gray;
+      padding: 3%;
+      margin: 6%;
+  }
+  .precio {
+      height:50px;
+      width: 85%;
+      margin: 31%;
+      font-family: sans-serif;
+      display:inline-flex;
+      justify-content: space-between;
+      align-items:center;
+  }
+  .box-precio{
+      width: 120px;
+      color: #B11313;
+  }
+   .precio1{
+      font-size: .8em;
+  }
+  .precio .precio2{
+      font-size: 1.5em;
+      color:greenyellow;
+  }
+  .card2{
+    cen
+  }
